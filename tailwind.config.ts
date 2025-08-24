@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				arcade: ['Press Start 2P', 'monospace'],
+				cyber: ['Orbitron', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,17 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// Retro Arcade Colors
+				neon: {
+					cyan: 'hsl(var(--neon-cyan))',
+					magenta: 'hsl(var(--neon-magenta))',
+					yellow: 'hsl(var(--neon-yellow))',
+					green: 'hsl(var(--neon-green))',
+				},
+				electric: {
+					blue: 'hsl(var(--electric-blue))',
+					pink: 'hsl(var(--hot-pink))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
