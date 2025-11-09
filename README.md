@@ -35,7 +35,9 @@ A Neon Retro Gaming Web Application where players can play classic style games, 
 - Each score is tied to the player name they enter before playing.
 
 ## UI Preview 👾
-<img width="1553" height="788" alt="image" src="https://github.com/user-attachments/assets/9f02975b-3910-4c5e-947e-9c7b733e8ed6" />
+<img width="1102" height="850" alt="image" src="https://github.com/user-attachments/assets/41d5c378-c4a5-46e0-b7e0-23c81f803b87" />
+
+
 
 
 ## Enjoy Playing! 👾
