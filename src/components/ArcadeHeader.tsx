@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 const ArcadeHeader = () => {
+  const navigate = useNavigate();
+
   return (
     <header className="relative py-8 px-6 text-center">
       {/* Scanlines overlay */}
@@ -22,7 +25,8 @@ const ArcadeHeader = () => {
           <Button variant="arcade" size="lg" className="font-cyber">
             START PLAYING
           </Button>
-          <Button variant="neon" size="lg" className="font-cyber">
+          <Button variant="neon" size="lg" className="font-cyber" onClick={() => {
+               console.log("leaderboard button clicked"); navigate("/leaderboard");}}>
             VIEW LEADERBOARD
           </Button>
         </div>
