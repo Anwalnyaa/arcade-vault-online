@@ -34,6 +34,10 @@ A Neon Retro Gaming Web Application where players can play classic style games, 
 - Global ranking for top 10 scores per game.
 - Each score is tied to the player name they enter before playing.
 
+## UI Preview 👾
+<img width="1553" height="788" alt="image" src="https://github.com/user-attachments/assets/9f02975b-3910-4c5e-947e-9c7b733e8ed6" />
+
+
 ## Enjoy Playing! 👾
 
 Step into the neon retro arcade universe and aim for the top of the leaderboard!
